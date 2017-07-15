@@ -1,0 +1,9 @@
+while (1 > 0):
+    x = int(input())
+    if (x == 0):
+        break;
+    for i in range (1 , x+1):
+        if(i == x):
+            print(i , end="\n")
+        else:
+            print(i , end=" ")
